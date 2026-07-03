@@ -39,7 +39,7 @@ app.get("/api/jokes", (req, res) => {
   res.send(jokes);
 });
 
-const port = process.env.port || 5000;
+const port = process.env.port || "https://full-stack-basic.netlify.app/";
 
 app.listen(port, () => {
   console.log(`Serve at http://localhost:${port}`);
